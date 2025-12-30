@@ -47,7 +47,7 @@ public class BankingProgram {
                     break;
             }
         }
-
+        sc.close();
         System.out.println("PROGRAM ENDS");
     }
 
