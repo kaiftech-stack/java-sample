@@ -69,7 +69,7 @@ public class BankingProgram {
 
     static double withdraw(double balance) {
         double amount;
-        System.out.print("enter the amount you want to withdraw");
+        System.out.print("enter the amount you want to withdraw: ");
         amount = sc.nextInt();
         if (amount > balance) {
             System.out.println("insufficient balance can't process");
