@@ -21,7 +21,7 @@ public class BankingProgram {
             System.out.println("4. Exit");
             System.out.println("****************************");
 
-            System.out.println("Enter your choice (1-4): ");
+            System.out.print("Enter your choice (1-4): ");
             choice = sc.nextInt();
 
             switch (choice) {
